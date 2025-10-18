@@ -1,0 +1,690 @@
+Waiting 5 seconds before next game...
+
+======================================================================
+GAME 2/2 - Agent as black
+======================================================================
+
+============================================================
+NEW GAME: gemini-2.5-pro Agent plays as black (with CCP)
+Agent timeout: 60s
+============================================================
+
+--- Move 1 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: +0.40
+Best line: e4 e6 d4 d5 Nc3 Nf6
+Stockfish played: e4
+
+--- Move 1 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "e5"
+⏱️  Agent responded in 7.51s
+Agent played: e5
+
+--- Move 2 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: +0.29
+Best line: Nf3 Nf6 d4 exd4 e5 Ne4
+Stockfish played: d3
+
+--- Move 2 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Nf6"
+⏱️  Agent responded in 10.08s
+Agent played: Nf6
+
+--- Move 3 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -0.03
+Best line: f4 Nc6 fxe5 Nxe5 d4 Ng6
+Stockfish played: Be2
+
+--- Move 3 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Nc6"
+⏱️  Agent responded in 7.89s
+Agent played: Nc6
+
+--- Move 4 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -0.12
+Best line: Nf3 d5 exd5 Nxd5 O-O Bd6
+Stockfish played: c3
+
+--- Move 4 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "d5"
+⏱️  Agent responded in 9.77s
+Agent played: d5
+
+--- Move 5 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -0.34
+Best line: Nd2 a5 Ngf3 Bc5 exd5 Qxd5
+Stockfish played: exd5
+
+--- Move 5 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Nxd5"
+⏱️  Agent responded in 7.49s
+Agent played: Nxd5
+
+Position after 10 moves:
+   +------------------------+
+ 8 | r  .  b  q  k  b  .  r |
+ 7 | p  p  p  .  .  p  p  p |
+ 6 | .  .  n  .  .  .  .  . |
+ 5 | .  .  .  n  p  .  .  . |
+ 4 | .  .  .  .  .  .  .  . |
+ 3 | .  .  P  P  .  .  .  . |
+ 2 | P  P  .  .  B  P  P  P |
+ 1 | R  N  B  Q  K  .  N  R |
+   +------------------------+
+     a  b  c  d  e  f  g  h
+
+--- Move 6 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -0.29
+Best line: Nf3 Bd6 O-O O-O Re1 Re8
+Stockfish played: a4
+
+--- Move 6 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Be7"
+⏱️  Agent responded in 15.58s
+Agent played: Be7
+
+--- Move 7 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -0.29
+Best line: Nf3 Bf5 O-O Qd7 Re1 O-O-O
+Stockfish played: Nf3
+
+--- Move 7 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "O-O"
+⏱️  Agent responded in 10.29s
+Agent played: O-O
+
+--- Move 8 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -0.38
+Best line: Na3 Re8 O-O Bf8 Nc4 Qf6
+Stockfish played: O-O
+
+--- Move 8 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "f6"
+⏱️  Agent responded in 12.35s
+Agent played: f6
+
+--- Move 9 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -0.22
+Best line: Re1 Kh8 Na3 Qe8 d4 Qf7
+Stockfish played: Re1
+
+--- Move 9 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Be6"
+⏱️  Agent responded in 11.97s
+Agent played: Be6
+
+--- Move 10 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -0.11
+Best line: a5 a6 d4 exd4 Nxd4 Nxd4
+Stockfish played: b4
+
+--- Move 10 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "a5"
+⏱️  Agent responded in 14.97s
+Agent played: a5
+
+Position after 20 moves:
+   +------------------------+
+ 8 | r  .  .  q  .  r  k  . |
+ 7 | .  p  p  .  b  .  p  p |
+ 6 | .  .  n  .  b  p  .  . |
+ 5 | p  .  .  n  p  .  .  . |
+ 4 | P  P  .  .  .  .  .  . |
+ 3 | .  .  P  P  .  N  .  . |
+ 2 | .  .  .  .  B  P  P  P |
+ 1 | R  N  B  Q  R  .  K  . |
+   +------------------------+
+     a  b  c  d  e  f  g  h
+
+--- Move 11 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: +0.35
+Best line: b5 Nb8 Qc2 Nd7 d4 Kh8
+Stockfish played: Bd2
+
+--- Move 11 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "axb4"
+⏱️  Agent responded in 14.04s
+Agent played: axb4
+
+--- Move 12 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -2.33
+Best line: d4 exd4 cxb4 Ndxb4 Bb5 Bf7
+Stockfish played: a5
+
+--- Move 12 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "bxc3"
+⏱️  Agent responded in 15.97s
+Agent played: bxc3
+
+--- Move 13 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -1.81
+Best line: Nxc3 Ndb4 Be3 Rxa5 Rxa5 Nxa5
+Stockfish played: Nxc3
+
+--- Move 13 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Rxa5"
+⏱️  Agent responded in 14.23s
+Agent played: Rxa5
+
+--- Move 14 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -1.35
+Best line: Rxa5 Nxa5 d4 Nc6 dxe5 Nxc3
+Stockfish played: Qb3
+
+--- Move 14 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Rxa1"
+⏱️  Agent responded in 23.52s
+Agent played: Rxa1
+
+--- Move 15 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -3.23
+Best line: Rxa1 Bb4 d4 Bxc3 Bxc3 e4
+Stockfish played: Qxb7
+
+--- Move 15 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Rxe1+"
+⏱️  Agent responded in 13.19s
+Agent played: Rxe1+
+
+Position after 30 moves:
+   +------------------------+
+ 8 | .  .  .  q  .  r  k  . |
+ 7 | .  Q  p  .  b  .  p  p |
+ 6 | .  .  n  .  b  p  .  . |
+ 5 | .  .  .  n  p  .  .  . |
+ 4 | .  .  .  .  .  .  .  . |
+ 3 | .  .  N  P  .  N  .  . |
+ 2 | .  .  .  B  B  P  P  P |
+ 1 | .  .  .  .  r  .  K  . |
+   +------------------------+
+     a  b  c  d  e  f  g  h
+
+--- Move 16 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -5.67
+Best line: Bxe1 Nd4 Nxd4 exd4 Nxd5 Bxd5
+Stockfish played: Bxe1
+
+--- Move 16 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Nd4"
+⏱️  Agent responded in 18.47s
+Agent played: Nd4
+
+--- Move 17 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -5.32
+Best line: Nxd4 exd4 Nxd5 Bxd5 Qb5 c6
+Stockfish played: Qxd5
+
+--- Move 17 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Qxd5"
+⏱️  Agent responded in 15.93s
+Agent played: Qxd5
+
+--- Move 18 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -6.30
+Best line: Nxd5 Nxe2+ Kf1 Bxd5 Kxe2 c6
+Stockfish played: Nxd4
+
+--- Move 18 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "exd4"
+⏱️  Agent responded in 10.04s
+Agent played: exd4
+
+--- Move 19 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -6.07
+Best line: Nxd5 Bxd5 f4 Rb8 f5 c6
+Stockfish played: Bd1
+
+--- Move 19 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "dxc3"
+⏱️  Agent responded in 9.42s
+Agent played: dxc3
+
+--- Move 20 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -9.79
+Best line: Be2 Qa2 Bf1 c2 Bd2 Bc5
+Stockfish played: h4
+
+--- Move 20 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Qxd3"
+⏱️  Agent responded in 12.37s
+Agent played: Qxd3
+
+Position after 40 moves:
+   +------------------------+
+ 8 | .  .  .  .  .  r  k  . |
+ 7 | .  .  p  .  b  .  p  p |
+ 6 | .  .  .  .  b  p  .  . |
+ 5 | .  .  .  .  .  .  .  . |
+ 4 | .  .  .  .  .  .  .  P |
+ 3 | .  .  p  q  .  .  .  . |
+ 2 | .  .  .  .  .  P  P  . |
+ 1 | .  .  .  B  B  .  K  . |
+   +------------------------+
+     a  b  c  d  e  f  g  h
+
+--- Move 21 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -11.81
+Best line: Ba4 Bd6 g3 c2 Bxc2 Qxc2
+Stockfish played: Bg4
+
+--- Move 21 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Bxg4"
+⏱️  Agent responded in 12.93s
+Agent played: Bxg4
+
+--- Move 22 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -13.50
+Best line: h5 Bxh5 g4 Bg6 g5 fxg5
+Stockfish played: Bd2
+
+--- Move 22 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "cxd2"
+⏱️  Agent responded in 8.14s
+Agent played: cxd2
+
+--- Move 23 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: M-4
+Best line: h5 d1=Q+ Kh2 Bd6+ g3 Q3f3
+Stockfish played: h5
+
+--- Move 23 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "d1=Q+"
+⏱️  Agent responded in 9.20s
+Agent played: d1=Q+
+
+--- Move 24 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: M-3
+Best line: Kh2 Bd6+ g3 Bxg3+ fxg3 Q3c2#
+Stockfish played: Kh2
+
+--- Move 24 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Qg3+"
+⏱️  Agent responded in 11.57s
+Agent played: Qg3+
+
+--- Move 25 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: M-8
+Best line: Kxg3 Bd6+ f4 Bxh5 Kh3 Qg4+
+Stockfish played: fxg3
+
+--- Move 25 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Qg1+"
+⏱️  Agent responded in 20.87s
+Agent played: Qg1+
+
+Position after 50 moves:
+   +------------------------+
+ 8 | .  .  .  .  .  r  k  . |
+ 7 | .  .  p  .  b  .  p  p |
+ 6 | .  .  .  .  .  p  .  . |
+ 5 | .  .  .  .  .  .  .  P |
+ 4 | .  .  .  .  .  .  b  . |
+ 3 | .  .  .  .  .  .  P  . |
+ 2 | .  .  .  .  .  .  P  K |
+ 1 | .  .  .  .  .  .  q  . |
+   +------------------------+
+     a  b  c  d  e  f  g  h
+
+--- Move 26 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -9.84
+Best line: Kxg1 Bxh5 Kh2 Kf7 Kg1 Bd6
+Stockfish played: Kxg1
+
+--- Move 26 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Bxh5"
+⏱️  Agent responded in 7.54s
+Agent played: Bxh5
+
+--- Move 27 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -9.63
+Best line: Kf2 Kf7 Ke3 Bd6 Kd3 Bg4
+Stockfish played: g4
+
+--- Move 27 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Bxg4"
+⏱️  Agent responded in 10.65s
+Agent played: Bxg4
+
+--- Move 28 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -11.52
+Best line: Kh1 Bd6 Kg1 Kf7 Kf1 Rb8
+Stockfish played: Kf2
+
+--- Move 28 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "c5"
+⏱️  Agent responded in 10.90s
+Agent played: c5
+
+--- Move 29 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: M-13
+Best line: Ke3 Rd8 Ke4 c4 Kf4 c3
+Stockfish played: Ke1
+
+--- Move 29 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "c4"
+⏱️  Agent responded in 9.96s
+Agent played: c4
+
+--- Move 30 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -9.25
+Best line: Kd2 Bd6 Kc3 Be5+ Kxc4 h6
+Stockfish played: Kd2
+
+--- Move 30 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Bb4+"
+⏱️  Agent responded in 15.55s
+Agent played: Bb4+
+
+Position after 60 moves:
+   +------------------------+
+ 8 | .  .  .  .  .  r  k  . |
+ 7 | .  .  .  .  .  .  p  p |
+ 6 | .  .  .  .  .  p  .  . |
+ 5 | .  .  .  .  .  .  .  . |
+ 4 | .  b  p  .  .  .  b  . |
+ 3 | .  .  .  .  .  .  .  . |
+ 2 | .  .  .  K  .  .  P  . |
+ 1 | .  .  .  .  .  .  .  . |
+   +------------------------+
+     a  b  c  d  e  f  g  h
+
+--- Move 31 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -12.96
+Best line: Ke3 c3 Kf2 Be6 Kf3 c2
+Stockfish played: Kc1
+
+--- Move 31 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Bd2+"
+⏱️  Agent responded in 12.25s
+Agent played: Bd2+
+
+--- Move 32 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -7.97
+Best line: Kxd2 Rc8 Ke3 c3 Kf4 Be6
+Stockfish played: Kxd2
+
+--- Move 32 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "c3+"
+⏱️  Agent responded in 9.47s
+Agent played: c3+
+
+--- Move 33 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: -6.39
+Best line: Kxc3 Rd8 Kb2 h5 Ka2 Kh7
+Stockfish played: Kc2
+
+--- Move 33 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Rc8"
+⏱️  Agent responded in 13.96s
+Agent played: Rc8
+
+--- Move 34 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: M-8
+Best line: g3 Bf5+ Kd1 c2+ Kc1 Be6
+Stockfish played: Kc1
+
+--- Move 34 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "c2"
+⏱️  Agent responded in 12.03s
+Agent played: c2
+
+--- Move 35 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: M-5
+Best line: g3 g6 Kd2 c1=Q+ Kd3 Rd8+
+Stockfish played: g3
+
+--- Move 35 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Bf5"
+⏱️  Agent responded in 16.25s
+Agent played: Bf5
+
+Position after 70 moves:
+   +------------------------+
+ 8 | .  .  r  .  .  .  k  . |
+ 7 | .  .  .  .  .  .  p  p |
+ 6 | .  .  .  .  .  p  .  . |
+ 5 | .  .  .  .  .  b  .  . |
+ 4 | .  .  .  .  .  .  .  . |
+ 3 | .  .  .  .  .  .  P  . |
+ 2 | .  .  p  .  .  .  .  . |
+ 1 | .  .  K  .  .  .  .  . |
+   +------------------------+
+     a  b  c  d  e  f  g  h
+
+--- Move 36 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: M-7
+Best line: g4 Be4 g5 f5 g6 hxg6
+Stockfish played: g4
+
+--- Move 36 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+⏱️  Agent timed out after 60 seconds
+⏱️  Agent timeout (1/3)
+Retrying with fresh context...
+
+--- Move 36 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Bxg4"
+⏱️  Agent responded in 11.63s
+Agent played: Bxg4
+
+--- Move 37 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: M-4
+Best line: Kd2 c1=Q+ Kd3 Rd8+ Ke4 Qe1+
+Stockfish played: Kd2
+
+--- Move 37 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "c1=Q+"
+⏱️  Agent responded in 11.40s
+Agent played: c1=Q+
+
+--- Move 38 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: M-3
+Best line: Kd3 Rc3+ Ke4 Qe3+ Kd5 Qd3#
+Stockfish played: Kd3
+
+--- Move 38 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Rc3+"
+⏱️  Agent responded in 11.59s
+Agent played: Rc3+
+
+--- Move 39 - white's turn ---
+Calling Local Stockfish
+Stockfish eval: M-2
+Best line: Ke4 Qb1+ Kd4 Qd3#
+Stockfish played: Kd4
+
+--- Move 39 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Bf5"
+⏱️  Agent responded in 17.54s
+Agent played: Bf5
+
+--- Move 40 - white's turn ---
+Calling Local Stockfish
+Stockfish STDERR: 
+
+#
+# Fatal process out of memory: Zone
+#
+----- Native stack trace -----
+
+
+Stockfish eval: M-1
+Best line: Kd5 Rd3#
+Stockfish played: Kd5
+Stockfish STDERR:  1: 00007FF6D66C766D
+ 2: 00007FF6D65A00DF
+ 3: 00007FF6D792C246
+ 4: 00007FF6D7314E81
+ 5: 00007FF6D6DBADAB
+ 6: 00007FF6D7AF8AD0
+ 7: 00007FF6D7AFA34D
+ 8: 00007FF6D7AF9EEB
+ 9: 00007FF6D7AF8DE0
+10: 00007FF6D7ABC9AE
+11: 00007FF6D7ABD15E
+12: 00007FF6D7ABCE52
+13: 00007FF6D7AA4064
+
+Stockfish STDERR: 14: 00007FF6D7A95F02
+15: 00007FF6D7964D13
+16: 00007FF6D6B2C8AA
+17: 00007FF6D6B2BC02
+18: 00007FF6D6B067F5
+19: 00007FF6D6B0C34F
+20: 00007FF6D7520735
+21: 00007FF6D65A2979
+22: 00007FF6D672A273
+23: 00007FF6D806B91E
+24: 00007FF905A3E8D7 BaseThreadInitThunk+23
+25: 00007FF906FAC53C RtlUserThreadStart+44
+
+
+--- Move 40 - black's turn ---
+gemini-2.5-pro ChessAgine thinking... (with CCP)
+Agent raw response: "Qd2#"
+⏱️  Agent responded in 6.99s
+Agent played: Qd2#
+
+Position after 80 moves:
+   +------------------------+
+ 8 | .  .  .  .  .  .  k  . |
+ 7 | .  .  .  .  .  .  p  p |
+ 6 | .  .  .  .  .  p  .  . |
+ 5 | .  .  .  K  .  b  .  . |
+ 4 | .  .  .  .  .  .  .  . |
+ 3 | .  .  r  .  .  .  .  . |
+ 2 | .  .  .  q  .  .  .  . |
+ 1 | .  .  .  .  .  .  .  . |
+   +------------------------+
+     a  b  c  d  e  f  g  h
+
+Final position:
+   +------------------------+
+ 8 | .  .  .  .  .  .  k  . |
+ 7 | .  .  .  .  .  .  p  p |
+ 6 | .  .  .  .  .  p  .  . |
+ 5 | .  .  .  K  .  b  .  . |
+ 4 | .  .  .  .  .  .  .  . |
+ 3 | .  .  r  .  .  .  .  . |
+ 2 | .  .  .  q  .  .  .  . |
+ 1 | .  .  .  .  .  .  .  . |
+   +------------------------+
+     a  b  c  d  e  f  g  h
+
+======================================================================
+GAME 2 RESULT
+======================================================================
+Winner: agent
+Reason: checkmate
+Total moves: 80
+Agent color: black
+
+PGN:
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+
+1. e4 e5 2. d3 Nf6 3. Be2 Nc6 4. c3 d5 5. exd5 Nxd5 6. a4 Be7 7. Nf3 O-O 8. O-O f6 9. Re1 Be6 10. b4 a5 11. Bd2 axb4 12. a5 bxc3 13. Nxc3 Rxa5 14. Qb3 Rxa1 15. Qxb7 Rxe1+ 16. Bxe1 Nd4 17. Qxd5 Qxd5 18. Nxd4 exd4 19. Bd1 dxc3 20. h4 Qxd3 21. Bg4 Bxg4 22. Bd2 cxd2 23. h5 d1=Q+ 24. Kh2 Qg3+ 25. fxg3 Qg1+ 26. Kxg1 Bxh5 27. g4 Bxg4 28. Kf2 c5 29. Ke1 c4 30. Kd2 Bb4+ 31. Kc1 Bd2+ 32. Kxd2 c3+ 33. Kc2 Rc8 34. Kc1 c2 35. g3 Bf5 36. g4 Bxg4 37. Kd2 c1=Q+ 38. Kd3 Rc3+ 39. Kd4 Bf5 40. Kd5 Qd2# *
+
+Results saved to: benchmark_results_gemini-2.5-pro_ccp_2025-10-18T01-57-51.940Z.json
+
+======================================================================
+BENCHMARK SUMMARY
+======================================================================
+Total games: 2
+
+Overall Results:
+  Agent wins: 1 (50.0%)
+  Stockfish wins: 1 (50.0%)
+  Draws: 0 (0.0%)
+
+As White:
+  Wins: 0, Losses: 1, Draws: 0
+
+As Black:
+  Wins: 1, Losses: 0, Draws: 0
+
+Average moves per game: 73.0
+======================================================================
+
+LLM + CCP beats Stockfish 1000 ELO
