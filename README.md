@@ -9,8 +9,10 @@ CCP is chess context protocol that takes care of providing chess context to LLM,
 No CCP does not give the model the best/right move rather the board state, chess themes, and legal moves which it uses to its advantge. LLMs are not meant to play chess, and by adding CCP layer LLMs become chess aware and this project tests how well LLM + CCP combo works.
 
 ## Acheivements
-Gemini-2.5-pro + Agine system prompt + CCP was able to take down Stockfish 1000 running at depth 15. the `bench` folder contains
+- Gemini-2.5-pro + Agine system prompt + CCP was able to take down Stockfish 1000 running at depth 15. the `bench` folder contains
 on victory json and text files. 
+- Gemini-2.5-pro + Agine system prompt + CCP was able to take down Stockfish 1200 running at depth 15. the `bench` folder contains
+on victory json file.
 
 Game:
 
@@ -37,8 +39,13 @@ AGINE_API_KEY=
 
 npx tsx .\playTest.ts 4 # number of games 15 local wasm fish depth 5 api delay 
 
+or run
+
+npm run bench
+
 watch the benchmark happen live
 ```
+
 
 ## Output
 

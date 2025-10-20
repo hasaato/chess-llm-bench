@@ -72,6 +72,10 @@ export abstract class UciEngine {
         
     }
 
+    public get getElo(){
+        return this.elo;
+    }
+
     /**
      * Initializes the engine. This must be called before evaluating any positions.
      */

@@ -55,12 +55,12 @@ function withTimeout<T>(promise: Promise<T>, timeoutMs: number, errorMessage: st
   ]);
 }
 
-async function getStockfishMove(fen: string, depth: number = 15): Promise<string> {
+async function getStockfishMove(fen: string, depth: number = 15, elo: number = 1000): Promise<string> {
   console.log("Calling Local Stockfish");
   
   try {
     const engine = await MCPStockfish.create();
-    engine.setElo(1000); // change elo
+    engine.setElo(elo); // change elo
     await engine.init();
     const data = await engine.evaluatePositionWithUpdate({
         fen: fen,
@@ -70,6 +70,7 @@ async function getStockfishMove(fen: string, depth: number = 15): Promise<string
     const analysis = formatStockfishPositionEval(fen, data);
     
     console.log(`Stockfish eval: ${formatEvaluation(data.lines[0])}`);
+    console.log(`Stockfish ELO: ${engine.getElo}`)
     console.log(`Best line: ${analysis.topLine}`);
     
     return analysis.bestmove;
@@ -181,7 +182,8 @@ async function playGame(
   maxMoves: number = 200,
   apiDelaySeconds: number = 1,
   useCCP: boolean = true,
-  agentTimeoutSeconds: number = 60
+  agentTimeoutSeconds: number = 60,
+  stockfishElo: number = 1000
 ): Promise<GameResult> {
   const chess = new Chess();
   const moves: string[] = [];
@@ -237,7 +239,7 @@ async function playGame(
         agentTimeouts = 0; // Reset timeout counter on success
       } else {
         // Stockfish's turn
-        const stockfishMove = await getStockfishMove(currentFen, stockfishDepth);
+        const stockfishMove = await getStockfishMove(currentFen, stockfishDepth, stockfishElo);
         move = await validateAndMakeMove(chess, stockfishMove, "Stockfish");
         consecutiveErrors = 0; // Reset error counter on success
       }
@@ -245,9 +247,9 @@ async function playGame(
       moves.push(move);
       
       // Show position periodically
-      if (moves.length % 10 === 0) {
-        console.log(`\nPosition after ${moves.length} moves:\n${chess.ascii()}`);
-      }
+      console.log("Current Position:")
+      console.log("Lichess GIF: ")
+      chess.ascii();
 
       // Small delay to avoid overwhelming the API
       await sleep(apiDelaySeconds * 1000);
@@ -324,7 +326,8 @@ async function runBenchmark(
   stockfishDepth: number = 15,
   apiDelaySeconds: number = 1,
   useCCP: boolean = true,
-  agentTimeoutSeconds: number = 60
+  agentTimeoutSeconds: number = 60,
+  stockfishElo: number = 1000
 ): Promise<void> {
   console.log("=".repeat(70));
   console.log("CHESS AGINE BENCHMARK TEST - WASM Stockfish");
@@ -358,7 +361,8 @@ async function runBenchmark(
         200, 
         apiDelaySeconds, 
         useCCP,
-        agentTimeoutSeconds
+        agentTimeoutSeconds,
+        stockfishElo
       );
       results.push(result);
 
@@ -469,6 +473,7 @@ const games = parseInt(filteredArgs[0]) || 5;
 const depth = parseInt(filteredArgs[1]) || 15;
 const apiDelay = parseInt(filteredArgs[2]) || 1;
 const agentTimeout = parseInt(filteredArgs[3]) || 60;
+const stockfishElo = parseInt(filteredArgs[4]) || 1000;
 
 runBenchmark(games, depth, apiDelay, useCCP, agentTimeout)
   .then(() => {

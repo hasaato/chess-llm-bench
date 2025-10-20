@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "mastra dev",
-    "build": "mastra build",
-    "start": "mastra start"
+    "bench": "npx tsx src/bench/playTest.ts 2 15 5 1100"
   },
   "keywords": [],
   "author": "",
