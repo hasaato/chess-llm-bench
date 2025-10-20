@@ -15,6 +15,7 @@ on victory json and text files.
 on victory json file.
 
 Game:
+![lichess_study_ccp-bench-tests_chapter-16_by_Noobmasterplayer123_2025 10 18](https://github.com/user-attachments/assets/286d6ac9-ab31-4c9e-925e-f26fc3386007)
 
 
 ## Future plans
